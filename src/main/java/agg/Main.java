@@ -20,7 +20,7 @@ public class Main {
             System.out.println("Directorio actual: " + directorioActual.getAbsolutePath());
             System.out.println("1. Listar archivos del directorio (dir)");
             System.out.println("2. Cambiar de directorio (cd)");
-            System.out.println("3. Leer archivo de texto");
+            System.out.println("3. Leer archivo de texto (type)");
             System.out.println();
             System.out.println("0. Salir");
             System.out.print("Seleccione una opción: ");
