@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        File directorioActual = new File(System.getProperty("user.dir")); // Directorio inicial
+        File directorioActual = new File(System.getProperty("user.dir"));
 
         int opcion;
         do {
@@ -92,8 +92,7 @@ public class Main {
             boolean encontrado = false;
 
             while ((linea = reader.readLine()) != null) {
-                // Si encontramos alguna línea que mencione archivos .txt
-                if (linea.contains(".txt")) {  // Esta es la clave: buscamos ".txt" en la salida
+                if (linea.contains(".txt")) {
                     encontrado = true;
                     break;
                 }
